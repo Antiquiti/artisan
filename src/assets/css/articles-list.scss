@@ -1,0 +1,11 @@
+@use 'variables';
+
+.col__offset
+{
+    margin-right: 38px;
+}
+
+.col-md-4:nth-child(2)
+{
+    margin-top: 136px;
+}

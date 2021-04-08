@@ -1,0 +1,71 @@
+@use 'variables';
+
+.footer
+{
+    width: 100%;
+
+    &__information
+    {
+        &--gray
+        {
+            background-color: #fafafa;
+            padding: 75px 0px 68px;
+        }
+
+        &--white
+        {
+            padding: 56px 0px 140px;
+        }
+    }
+
+    &__text
+    {
+        font-size: variables.$article-font-size;
+        font-family: variables.$article-font;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    &__contact
+    {
+        @extend .footer__text;
+        margin-top: 27px;
+        letter-spacing: -0.1px;
+    }
+
+    &__anchor
+    {
+        color: #02748c;
+
+        &:hover
+        {
+            color: #02748c;
+        }
+    }
+
+    &__telephone:hover
+    {
+        text-decoration: none;
+    }
+
+    &__mail
+    {
+        text-decoration: underline;
+    }
+
+    &__heading
+    {
+        font-size: 3.6rem;
+        font-family: variables.$main-font;
+        margin-bottom: 10px;
+        letter-spacing: -0.4px;
+    }
+
+    &__contact-information
+    {
+        font-size: variables.$main-font-size;
+        font-family: variables.$main-font;
+        text-align: center;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,18 @@
+@use 'variables';
+
+.title
+{
+    font-size: 3.6rem;
+    font-family: variables.$main-font;
+    margin: 64px 0px 65px;
+    letter-spacing: -0.58px;
+}
+
+.quote--gray
+{
+    font-family: variables.$main-font;
+    font-size: variables.$article-font-size;
+    color: variables.$gray;
+    margin-bottom: 89px;
+    letter-spacing: 0.4px;
+}

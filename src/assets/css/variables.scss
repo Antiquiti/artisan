@@ -1,0 +1,17 @@
+@font-face 
+{
+    font-family: 'CaliFB';
+    src: url('~@/assets/fonts/CALIFB.TTF'); 
+}
+
+@font-face
+{
+    font-family: 'GothamRoundedBook';
+    src: url('~@/assets/fonts/Gotham Rounded Book.otf'); 
+}
+
+$main-font: 'CaliFB', Georgia, Times, 'Times New Roman', serif;
+$main-font-size: 1.5rem;
+$article-font: 'GothamRoundedBook', Georgia, Times, 'Times New Roman', serif;
+$article-font-size: 1.6rem;
+$gray: #616161;

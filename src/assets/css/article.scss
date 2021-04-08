@@ -1,0 +1,41 @@
+@use 'variables';
+
+.article
+{
+    margin-bottom: 85px;
+
+    &__description
+    {
+        font-size: variables.$article-font-size;
+        font-family: variables.$article-font;
+        color: variables.$gray;
+        word-break: break-all;
+        line-height: 24px;
+
+        &__anchor
+        {
+            color: variables.$gray;
+            font-size: variables.$article-font-size;
+
+            &:hover
+            {
+                text-decoration: none;
+                color: variables.$gray;
+            }
+        }
+    }
+
+    &__heading
+    {
+        font-size: 4rem;
+        font-family: variables.$main-font;
+        margin: 65px 0px 45px;
+    }
+
+    &__heading--smaller
+    {
+        font-size: 3.5rem;
+        font-family: variables.$main-font;
+        margin: 65px 0px 33px;
+    }
+}

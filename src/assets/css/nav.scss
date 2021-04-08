@@ -1,0 +1,32 @@
+@use 'variables';
+
+.nav
+{
+    background-color: #FFF;
+
+    &__anchor
+    {
+        font-family: variables.$main-font;
+        font-size: variables.$main-font-size;
+        color: variables.$gray;
+        font-weight: bold;
+        padding: 20px 0px;
+        letter-spacing: 0.38px;
+        
+        &:hover
+        {
+            text-decoration: none;
+            color: variables.$gray;
+        }
+
+        &:not(:last-child)
+        {
+            margin-right: 30px;
+        }
+
+        &:focus
+        {
+            color: variables.$gray;
+        }
+    }
+}
